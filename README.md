@@ -1,7 +1,6 @@
 # 10 Desafios de Lógica com JavaScript
 
 ![Status](https://img.shields.io/badge/status-concluído-brightgreen)
-![Licença](https://img.shields.io/badge/licença-MIT-blue)
 ![Versão](https://img.shields.io/badge/versão-1.0.0-informational)
 
 Este é um projeto front-end interativo, desenvolvido para praticar e demonstrar a resolução de 10 desafios clássicos de lógica de programação utilizando **JavaScript puro (Vanilla JS)**, com manipulação direta do DOM.
@@ -36,20 +35,6 @@ Este projeto foi construído utilizando tecnologias web fundamentais, sem o uso 
 -   **CSS3:** Para a estilização e o layout responsivo dos componentes.
 -   **JavaScript (ES6+):** Para toda a lógica, interatividade e manipulação do DOM.
 
-## 🚀 Como Executar o Projeto
-
-Para executar este projeto localmente, basta seguir os passos abaixo:
-
-1.  **Clone o repositório:**
-    ```bash
-    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
-    ```
-    *(Substitua `seu-usuario/seu-repositorio` pelo seu nome de usuário e nome do repositório)*
-
-2.  **Acesse a pasta do projeto:**
-    ```bash
-    cd seu-repositorio
-    ```
 
 3.  **Abra o `index.html`:**
     Abra o arquivo `index.html` diretamente no seu navegador de preferência.
@@ -66,14 +51,10 @@ O projeto está organizado da seguinte forma para manter a clareza e a separaç�
 ├── style.css        # Folha de estilos para toda a aplicação
 └── scripts.js       # Arquivo único com a lógica JavaScript para todos os desafios
 ```
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
 ---
 
-Feito com ❤️ por **[Seu Nome Aqui]**
+Feito com ❤️ por **[codiguss]**
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/seu-usuario)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/seu-perfil/)
+
