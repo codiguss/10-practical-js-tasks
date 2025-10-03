@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 Desafios de JavaScript - Front-end</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Desafios de Lógica com JavaScript</h1>
+        <p>Implementando lógica para cada um dos cards abaixo.</p>
+    </header>
+
+    <main class="container">
+
+        <div class="card">
+            <h2>1. Contador Regressivo</h2>
+            <p>Insira uma data futura para ver o tempo restante.</p>
+            <div class="input-group">
+                <label for="date-input">Data Futura:</label>
+                <input type="datetime-local" id="date-input">
+            </div>
+            <button id="start-countdown-btn">Iniciar Contagem</button>
+            <p id="countdown-result" class="result">Faltam: -- dias, -- horas, -- minutos, -- segundos.</p>
+            <script src="./src/01 - regressive-timer.js"></script>
+        </div>
+
+        <div class="card">
+            <h2>2. Calculadora de IMC</h2>
+            <p>Calcule seu Índice de Massa Corporal.</p>
+            <div class="input-group">
+                <label for="weight-input">Peso (kg):</label>
+                <input type="number" id="weight-input" placeholder="Ex: 70">
+            </div>
+            <div class="input-group">
+                <label for="height-input">Altura (m):</label>
+                <input type="number" id="height-input" placeholder="Ex: 1.75">
+            </div>
+            <button id="calculate-imc-btn">Calcular</button>
+            <p id="imc-result" class="result">Resultado: --</p>
+            <script src="./src/02 - imc-calculator.js"></script>
+        </div>
+
+        <div class="card">
+            <h2>3. Tabuada Dinâmica</h2>
+            <p>Gere a tabuada de qualquer número.</p>
+            <div class="input-group">
+                <label for="number-tabuada-input">Número:</label>
+                <input type="number" id="number-tabuada-input" placeholder="Ex: 7">
+            </div>
+            <button id="generate-tabuada-btn">Gerar Tabuada</button>
+            <div id="tabuada-result" class="result">
+                </div>
+
+            <script src="./src/03 - tabuada-dinamica.js"></script>
+        </div>
+
+        <div class="card">
+            <h2>4. Validador de Usuário</h2>
+            <p>Verifique se os dados do usuário são válidos.</p>
+            <div class="input-group">
+                <label for="user-name-input">Nome:</label>
+                <input type="text" id="user-name-input" placeholder="Seu nome">
+            </div>
+            <div class="input-group">
+                <label for="user-email-input">Email:</label>
+                <input type="email" id="user-email-input" placeholder="email@exemplo.com">
+            </div>
+            <div class="input-group">
+                <label for="user-password-input">Senha:</label>
+                <input type="password" id="user-password-input" placeholder="Mínimo 7 caracteres">
+            </div>
+            <button id="validate-user-btn">Validar</button>
+            <p id="validation-result" class="result">Status: --</p>
+
+            <script src="./src/04 - validador-usuario.js"></script>
+        </div>
+
+        <div class="card">
+            <h2>5. Analisador de Números</h2>
+            <p>Insira números separados por vírgula.</p>
+            <div class="input-group">
+                <label for="array-numbers-input">Números:</label>
+                <input type="text" id="array-numbers-input" placeholder="Ex: 5, 8, 1, 9, 3">
+            </div>
+            <button id="analyze-numbers-btn">Analisar</button>
+            <p id="analysis-result" class="result">Maior: --, Menor: --, Média: --</p>
+
+            <script src="./src/05 - analisador-numeros.js"></script>
+        </div>
+
+        <div class="card">
+            <h2>6. Conversor de Temperatura</h2>
+            <p>Converta Celsius para Fahrenheit e vice-versa.</p>
+            <div class="input-group">
+                <label for="celsius-input">Celsius (°C):</label>
+                <input type="number" id="celsius-input" placeholder="Ex: 30">
+            </div>
+            <button id="c-to-f-btn">Converter para °F</button>
+            <p id="c-to-f-result" class="result">Resultado: -- °F</p>
+            <hr>
+            <div class="input-group">
+                <label for="fahrenheit-input">Fahrenheit (°F):</label>
+                <input type="number" id="fahrenheit-input" placeholder="Ex: 86">
+            </div>
+            <button id="f-to-c-btn">Converter para °C</button>
+            <p id="f-to-c-result" class="result">Resultado: -- °C</p>
+
+            <script src="./src/06 - conversor-temperatura.js"></script>
+        </div>
+
+        <div class="card">
+            <h2>7. Contador de Letras</h2>
+            <p>Conte vogais e consoantes de uma palavra.</p>
+            <div class="input-group">
+                <label for="word-input">Palavra:</label>
+                <input type="text" id="word-input" placeholder="Ex: Abacaxi">
+            </div>
+            <button id="count-letters-btn">Contar</button>
+            <p id="letter-count-result" class="result">Vogais: --, Consoantes: --</p>
+
+            <script src="./src/07 - contador-letras.js"></script>
+        </div>
+        
+        <div class="card">
+            <h2>8. Gerador de Cupons</h2>
+            <p>Gere um código de cupom aleatório.</p>
+            <div class="input-group">
+                <label for="coupon-length-input">Tamanho do Cupom:</label>
+                <input type="number" id="coupon-length-input" value="8">
+            </div>
+            <button id="generate-coupon-btn">Gerar Cupom</button>
+            <p id="coupon-result" class="result result-strong">--</p>
+
+            <script src="./src/08 - gerador-cupons.js"></script>
+        </div>
+        
+        <div class="card">
+            <h2>9. Localizador da Maior Palavra</h2>
+            <p>Encontre a maior palavra em uma frase.</p>
+            <div class="input-group">
+                <label for="phrase-input">Frase:</label>
+                <textarea id="phrase-input" rows="3" placeholder="Digite uma frase aqui..."></textarea>
+            </div>
+            <button id="find-longest-word-btn">Encontrar</button>
+            <p id="longest-word-result" class="result">A maior palavra é: --</p>
+
+            <script src="./src/09 - maior-palavra.js"></script>
+        </div>
+
+        <div class="card">
+            <h2>10. Sorteador de Times</h2>
+            <p>Insira nomes (um por linha) e o número de times.</p>
+            <div class="input-group">
+                <label for="names-list-input">Lista de Nomes:</label>
+                <textarea id="names-list-input" rows="5" placeholder="Ana&#10;Carlos&#10;Bia&#10;Daniel"></textarea>
+            </div>
+            <div class="input-group">
+                <label for="teams-number-input">Número de Times:</label>
+                <input type="number" id="teams-number-input" value="2">
+            </div>
+            <button id="draw-teams-btn">Sortear Times</button>
+            <div id="teams-result" class="result">
+                </div>
+
+            <script src="./src/10 - sorteador-times.js"></script>
+        </div>
+    </main>
+
+</body>
+</html>
