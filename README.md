@@ -1,16 +1,15 @@
-# 10 Desafios de Lógica com JavaScript
+# 10-practical-js-tasks
 
 ![Status](https://img.shields.io/badge/status-concluído-brightgreen)
 ![Versão](https://img.shields.io/badge/versão-1.0.0-informational)
 
-Este é um projeto front-end interativo, desenvolvido para praticar e demonstrar a resolução de 10 desafios clássicos de lógica de programação utilizando **JavaScript puro (Vanilla JS)**, com manipulação direta do DOM.
+Este é um projeto front-end interativo, desenvolvido para praticar e demonstrar a resolução de 10 desafios clássicos de lógica de programação utilizando **JavaScript puro (Vanilla JS)**, com manipulação direta do DOM. Cada desafio tem seu próprio arquivo de script, mantendo o código organizado e modular.
 
 ## 🎥 Demonstração
 
 Uma demonstração visual de como a aplicação funciona. Recomendo gravar um GIF rápido mostrando a interação com alguns dos cards.
 
 ![Demonstração do Projeto](https://user-images.githubusercontent.com/20557993/178229972-03126f55-1f60-482d-8686-e9c5625447a1.gif)
-
 
 ## ✨ Desafios Implementados
 
@@ -35,7 +34,6 @@ Este projeto foi construído utilizando tecnologias web fundamentais, sem o uso 
 -   **CSS3:** Para a estilização e o layout responsivo dos componentes.
 -   **JavaScript (ES6+):** Para toda a lógica, interatividade e manipulação do DOM.
 
-
 3.  **Abra o `index.html`:**
     Abra o arquivo `index.html` diretamente no seu navegador de preferência.
 
@@ -43,18 +41,28 @@ Não é necessário instalar nenhuma dependência!
 
 ## 📂 Estrutura de Arquivos
 
-O projeto está organizado da seguinte forma para manter a clareza e a separação de responsabilidades:
+O projeto está organizado da seguinte forma para manter a clareza e a separação de responsabilidades, com um script para cada desafio:
 
 ```
 /
+├── src/
+│   ├── 01 - regressive-timer.js
+│   ├── 02 - imc-calculator.js
+│   ├── 03 - tabuada-dinamica.js
+│   ├── 04 - validador-usuario.js
+│   ├── 05 - analisador-numeros.js
+│   ├── 06 - conversor-temperatura.js
+│   ├── 07 - contador-letras.js
+│   ├── 08 - gerador-cupons.js
+│   ├── 09 - maior-palavra.js
+│   └── 10 - sorteador-times.js
 ├── index.html       # Estrutura principal da página com os 10 cards
-├── style.css        # Folha de estilos para toda a aplicação
-└── scripts.js       # Arquivo único com a lógica JavaScript para todos os desafios
+└── style.css        # Folha de estilos para toda a aplicação
 ```
+
 ---
 
 Feito com ❤️ por **[codiguss]**
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/seu-usuario)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/seu-perfil/)
-
