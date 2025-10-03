@@ -5,12 +5,6 @@
 
 Este é um projeto front-end interativo, desenvolvido para praticar e demonstrar a resolução de 10 desafios clássicos de lógica de programação utilizando **JavaScript puro (Vanilla JS)**, com manipulação direta do DOM. Cada desafio tem seu próprio arquivo de script, mantendo o código organizado e modular.
 
-## 🎥 Demonstração
-
-Uma demonstração visual de como a aplicação funciona. Recomendo gravar um GIF rápido mostrando a interação com alguns dos cards.
-
-![Demonstração do Projeto](https://user-images.githubusercontent.com/20557993/178229972-03126f55-1f60-482d-8686-e9c5625447a1.gif)
-
 ## ✨ Desafios Implementados
 
 O projeto é composto por 10 cards interativos, cada um com um desafio específico:
@@ -64,5 +58,6 @@ O projeto está organizado da seguinte forma para manter a clareza e a separaç�
 
 Feito com ❤️ por **[codiguss]**
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/seu-usuario)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/seu-perfil/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/codiguss)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/codiguss/)
+
